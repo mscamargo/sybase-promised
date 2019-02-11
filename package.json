@@ -18,7 +18,7 @@
     "java"
   ],
   "author": "Marcos Camargo <mscamargo@outlook.com.br>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mscamargo/sybase-promised/issues"
   },
