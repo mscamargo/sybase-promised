@@ -1,0 +1,38 @@
+{
+  "name": "sybase-promised",
+  "version": "1.0.2",
+  "description": "sybase-promised",
+  "main": "SybasePromised.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscamargo/sybase-promised.git"
+  },
+  "keywords": [
+    "database",
+    "sybase",
+    "jconnect",
+    "sql",
+    "java"
+  ],
+  "author": "Marcos Camargo <mscamargo@outlook.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mscamargo/sybase-promised/issues"
+  },
+  "homepage": "https://github.com/mscamargo/sybase-promised#readme",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "sybase": "^1.2.1"
+  }
+}
