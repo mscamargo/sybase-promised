@@ -1,8 +1,8 @@
 const Sybase = require('sybase')
 
 class SybasePromised {
-  constructor ({ host, port, dbname, username, password }) {
-    this.sybase = new Sybase(host, port, dbname, username, password)
+  constructor ({ host, port, dbname, username, password, logTiming, pathToJavaBridge }) {
+    this.sybase = new Sybase(host, port, dbname, username, password, logTiming, pathToJavaBridge)
   }
 
   connect () {
